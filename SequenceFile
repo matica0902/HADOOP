@@ -1,0 +1,6 @@
+// realize like Filereader
+
+main method  
+SequenceFile.Write write =null;
+write=SquenceFile.createwriter(fs,conf,path,key.getClass(),value.getclass()};
+write.append(key,value);
